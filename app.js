@@ -1,3 +1,54 @@
+// ************************************************
+// ********************** LOOPS *********************
+// ****************************************************
+
+            // // WHILE LOOPS // //
+
+// const cards = ['diamond', 'spade', 'heart', 'club'];
+
+// let currentCard;
+// while(currentCard != 'spade') {
+//   currentCard = cards[Math.floor(Math.random() * 4)];
+//   console.log(currentCard);
+// }
+
+            // // DO... WHILE LOOPS // //
+
+// In some cases, you want a piece of code to run at least once and 
+// then loop based on a specific condition after its initial run. This 
+// is where the do...while statement comes in.
+// A do...while statement says to do a task once and then keep doing it 
+// until a specified condition is no longer met.
+
+// const firstMessage = 'I will print!';
+// const secondMessage = 'I will not print!'; 
+
+// // A do while with a stopping condition that evaluates to false
+// do {
+//  console.log(firstMessage)
+// } while (true === false);
+
+// // A while loop with a stopping condition that evaluates to false
+// while (true === false){
+//   console.log(secondMessage)
+// };
+
+                // // BREAK // //
+
+// const rapperArray = ["Lil' Kim", "Jay-Z", "Notorious B.I.G.", "Tupac"];
+
+// // Write you code below
+// for (let i = 0; i < rapperArray.length; i++){
+//   console.log(rapperArray[i]);
+//   if (rapperArray[i] === 'Notorious B.I.G.'){
+//     break;
+//   }
+// }
+// console.log("And if you don't know, now you know.");
+
+
+
+
 // function foo(x) {
 //   if (x < 1) {
 //     return "Less than one";
