@@ -318,3 +318,25 @@ console.log(typeof(b));
 
 // =========== MULTIPLE TERNARY OPERATOR =================
 // to be continuted....
+// ================================================================
+// Make a program that filters a list of strings and returns a list with 
+// only your friends name in it.
+// If a name has exactly 4 letters in it, you can be sure that it has to be 
+// a friend of yours! Otherwise, you can be sure he's not...
+// Ex: Input = ["Ryan", "Kieran", "Jason", "Yous"], Output = ["Ryan", "Yous"]
+// i.e.
+// friend ["Ryan", "Kieran", "Mark"] `shouldBe` ["Ryan", "Mark"]
+
+// function friend(){
+//     let people = ["saad", "ali", "bob", "jack", "john", "tom",
+//     "karl"]
+//     let friends = [];
+    
+//     for (let i = 0; i < people.length; i++) {
+//         if (people[i].length === 4) {
+//             friends.push(people[i]);
+//         }
+//     }
+//     console.log(friends);
+// }
+// friend();
